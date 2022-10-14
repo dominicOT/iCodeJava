@@ -1,3 +1,5 @@
+//Java code to keep the mouse active on screen and change position every 5 second
+
 import java.awt.Robot;
 import java.util.Random;
 
