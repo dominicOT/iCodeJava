@@ -6,14 +6,14 @@ import java.util.*;
 class durges {
     public static void main (String args[]) throws Throwable {
         //import file
-        File file = new File(C:\Users\dominic_the_genius\OneDrive\Desktop\JAVA ART\img1.png);
+        File file = new File("C:\\Users\\dominic_the_genius\\OneDrive\\Desktop\\JAVA ART\\mfr.txt");
 
         //make scanner object
         Scanner sc = new Scanner (file);
 
         while (sc.hasNextLine()) {
-            String s = sc.nextLine();
-            System.out.println(s);
+            String mfr = sc.nextLine();
+            System.out.println(mfr);
             Thread.sleep(200);
         }
     }
