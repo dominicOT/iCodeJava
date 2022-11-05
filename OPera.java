@@ -5,12 +5,19 @@ public class OPera { //filename must be the same with the class name
         int var2 = 500;
 
         int sum = var1 + var2;
-        System.out.println(sum); //we shouldn't use wrong statements
+        System.out.println(sum);
 
-        // int sum = var1 - var2;
-        // int sum = var1 * var2;
-        // int sum = var1 / var2;
-        // int sum = var1 % var2;
+        int sum1 = var1 - var2;
+        System.out.println(sum1);
+        
+        int sum2 = var1 * var2;
+        System.out.println(sum2);
+
+        int sum3 = var1 / var2;
+        System.out.println(sum3);
+        
+        int sum4 = var1 % var2;
+        System.out.println(sum4);
         
     }
 } //make sure to close the blocks
